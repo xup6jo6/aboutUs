@@ -21,6 +21,7 @@ body {
 
 .name{
     font-family: NotoSansCJKtc-Light;
+animation: bounceInLeft 5s  linear forwards;
     font-size: 2.3em;
     top: 55.5%;
     left: 10.2%;
@@ -41,13 +42,13 @@ img{
     top: 25.65%;
     left: 10.2%;
     width: 12.75%;
-    animation: bounceInLeft 2s  linear forwards;
+    animation: bounceInLeft 5s  linear forwards;
 }
 .NCKU{
     top: 20.1%;
     left: 4.27%;
     width: 2.25%;
-    animation: bounceInLeft 2s  linear forwards;
+    animation: bounceInLeft 5s  linear forwards;
 }
 .Ltriangle{
     bottom: 2.3%;

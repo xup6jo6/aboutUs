@@ -14,27 +14,26 @@ html, body {
 	#slide2{
 		color:#384660;
 		font-family: NotoSansCJKtc-Light;
-		animation: bounceInLeft 1s  linear forwards;
+		
 	}
 	#slide3{
 		color:#384660;
 		font-family: NotoSansCJKtc-Light;
-		animation: bounceInLeft 2s  linear forwards;
+		
 	}
 	#slide4{
 		color:#384660;
 		font-family: NotoSansCJKtc-Light;
-		animation: bounceInLeft 3s  linear forwards;
+		
 	}
 	#slide5{
 		color:#384660;
 		font-family: NotoSansCJKtc-Light;
-		animation: bounceInLeft 4s  linear forwards;
+		
 	}
 	#slide6{
 		color:#384660;
 		font-family: NotoSansCJKtc-Light;
-		animation: bounceInLeft 5s  linear forwards;
 	}
 	#slide2:hover{
 		opacity:0.7;
