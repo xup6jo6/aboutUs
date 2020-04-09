@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>ABOUT US</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/css/swiper.css" rel="stylesheet" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/css/swiper.min.css" rel="stylesheet" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.esm.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.esm.bundle.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
+	<link href="aboutus.css" rel="stylesheet" type="text/css">
+	<link href="main.css" rel="stylesheet" type="text/css">
+ </head> 
+ <!-- 幻燈片內容 -->
+  <body>
+  <div class="swiper-container">
+  	<!-- 外層(必要) -->
+  	<div class="swiper-wrapper">
+  		<!-- 幻燈片內容 -->
+  		<div class="swiper-slide" id = "bg0">
+			<div class="bgcolor0"></div>
+			<div id="nav">
+			        <img class="img ourteam" src="./pic/OUR TEAM.png">
+        			<img class="NCKU" src="./pic/橫幅.png">
+				<p class="name">
+                        		蔡君涵
+                        		<br>陳岳霆
+                        		<br>蘇子竣
+                        		<br>鍾政儒
+                        		<br>林韋成
+                    		</p>
+    			</div>
+			<div id="main">
+	        		<img class="img P2" src="./pic/照片2.png">
+	        		<img class="img P4" src="./pic/照片4.png">
+	        		<img class="img P1" src="./pic/照片1.png">
+	        		<img class="img P5" src="./pic/照片5.png">
+	       			<img class="img P3" src="./pic/照片3.png">
+			</div>
+
+			
+			
+		</div>
+  		<div class="swiper-slide" id = "bg1">
+			<img id="back"   src="./page1/bgr1.png">
+			<img id="photo1"  src="./page1/photo4.png">
+			<img id="bgr2" src="./page1/bgr2.png">
+			<img id="title" src="./page1/title3.png">
+			<div>
+    				<img id="mark"  src="./page1/mark.png">
+	 			<img id="person"  src="./page1/person3.png">
+		 		<img id="skill"  src="./page1/skill3.png">
+  			</div>
+		</div>
+  		<div class="swiper-slide" id = "bg2">
+			<div><img id="back"   src="./page2/back1.png"></div>
+			<div><img id="photo"  src="./page2/photo3.png"></div>
+			<img id="bgr2" src="./page1/bgr2.png">
+			<img id="title" src="./page2/title.png">
+			<div>
+    				<img id="mark"  src="./page2/mark.png">
+   				<img id="person"  src="./page2/person.png">
+    				<img id="skill"  src="./page2/skill.png">
+  			</div>
+		</div>
+  		<div class="swiper-slide" id = "bg3">
+			<img id = "subtitle3" src = "./page3/subtitle.png">
+			<img id = "skill3" src = "./page3/skill.png">
+			<img id = "bg_right3" src = "./page3/bg_right.png">
+			<img id = "photo3" src = "./page3/photo.png">
+			<img id = "information3" src = "./page3/information.png">
+			<a href = "#"><img id = "title3" src = "./page3/title.png"></a>
+		</div>
+  		<div class="swiper-slide" id = "bg4">
+            		<img id = "background4" src = "./page4/background.png">
+			<img id = "skill4" src = "./page4/skill.png">
+			<img id = "NCKU4" src = "./page4/NCKU.png">
+			<img id = "title4" src = "./page4/title.png">"
+			<img id = "profile4" src = "./page4/profile.png">
+			<img id = "photo4" src = "./page4/person.png">
+
+		</div>
+		<div class="swiper-slide" id = "bg5" >
+			<img id = "bgimg_r" src = "./page5/bg_img_r3.png">
+			<img id = "skill_img" src = "./page5/skill.png">
+			<img id = "NCKU" src = "./page5/NCKU.png">
+			<img id = "title" src = "./page5/title.png">"
+			<img id = "profile" src = "./page5/profile.png">
+			<img id = "pic5" src = "./page5/pic5.png">
+		</div>
+  	</div>
+	<div class = "shared_content">
+		<a href = "#"><img id = "aboutus" src="./shared_area/ABOUT US.png"></a>
+		<a href = "#"><img id = "search" src="./shared_area/search.png"></a>
+		<a href = "#"><img id = "menu" src="./shared_area/menu.png"></a>
+	</div>
+  	<!-- 上/下一頁按鈕(非必要) -->
+  	<div class="swiper-button-prev" id = "prev"><img src="./shared_area/prev.png" height="27", width="15"></div>
+  	<div class="swiper-button-next" id = "next"><img src="./shared_area/next.png" height="27", width="15"></div>
+
+
+  </div>
+  <script>
+  	var mySwiper = new Swiper ( ".swiper-container", {
+  		direction: "horizontal", // 方向
+  		loop: true,  // 循環
+
+  		navigation: {
+  			nextEl: ".swiper-button-next", // 上一頁按鈕物件
+  			prevEl: ".swiper-button-prev", // 下一頁按鈕物件
+  		},
+  	})
+  </script>
+  </body>
+ </html>
