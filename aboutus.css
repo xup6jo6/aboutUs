@@ -13,18 +13,28 @@ html, body {
     }
 	#slide2{
 		color:#384660;
+		font-family: NotoSansCJKtc-Light;
+		animation: bounceInLeft 1s  linear forwards;
 	}
 	#slide3{
 		color:#384660;
+		font-family: NotoSansCJKtc-Light;
+		animation: bounceInLeft 2s  linear forwards;
 	}
 	#slide4{
 		color:#384660;
+		font-family: NotoSansCJKtc-Light;
+		animation: bounceInLeft 3s  linear forwards;
 	}
 	#slide5{
 		color:#384660;
+		font-family: NotoSansCJKtc-Light;
+		animation: bounceInLeft 4s  linear forwards;
 	}
 	#slide6{
 		color:#384660;
+		font-family: NotoSansCJKtc-Light;
+		animation: bounceInLeft 5s  linear forwards;
 	}
 	#slide2:hover{
 		opacity:0.7;
@@ -39,6 +49,21 @@ html, body {
 		opacity:0.7;
 	}
 	#slide6:hover{
+		opacity:0.7;
+	}
+	#slide_2:hover{
+		opacity:0.7;
+	}
+	#slide_3:hover{
+		opacity:0.7;
+	}
+	#slide_4:hover{
+		opacity:0.7;
+	}
+	#slide_5:hover{
+		opacity:0.7;
+	}
+	#slide_6:hover{
 		opacity:0.7;
 	}
 	#bg0{
@@ -322,3 +347,15 @@ html, body {
 	.swiper-button-next:hover{
 		opacity:0.7;
 	}
+@font-face{
+    font-family:NotoSansCJKtc-Light;
+    src: url(./text/NotoSansCJKtc-Light.otf) format("opentype");
+}
+@keyframes bounceInLeft {
+        from, 60%, 75%, 90%, to {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);}
+        0% {opacity: 0;transform: translate3d(-3000px, 0, 0);}
+        60% {opacity: 1;transform: translate3d(25px, 0, 0);}
+        75% {transform: translate3d(-10px, 0, 0);}
+        90% {transform: translate3d(5px, 0, 0);}
+        100% {opacity: 1;transform: none;}
+  }

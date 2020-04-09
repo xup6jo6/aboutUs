@@ -36,11 +36,11 @@
                     		</p>
     			</div>
 			<div id="main">
-	        		<img class="img P2" src="./pic/照片2.png">
-	        		<img class="img P4" src="./pic/照片4.png">
-	        		<img class="img P1" src="./pic/照片1.png">
-	        		<img class="img P5" src="./pic/照片5.png">
-	       			<img class="img P3" src="./pic/照片3.png">
+	        		<a href = "#" id="slide_3"><img class="img P2"  src="./pic/照片2.png"></a>
+	        		<a href = "#" id="slide_5"><img class="img P4"   src="./pic/照片4.png"></a>
+	        		<a href = "#" id="slide_2"><img class="img P1"   src="./pic/照片1.png"></a>
+	        		<a href = "#" id="slide_6"><img class="img P5"   src="./pic/照片5.png"></a>
+	       			<a href = "#" id="slide_4"><img class="img P3"   src="./pic/照片3.png"></a>
 			</div>
 
 			
@@ -129,6 +129,22 @@
 	})
 	$('#slide6').click(function(){
 		mySwiper.slideTo(6, 1000, false);//切换到第一个slide，速度为1秒
+	})
+
+	$('#slide_2').click(function(){
+		mySwiper.slideTo(2, 1000);//切换到第一个slide，速度为1秒
+	})
+	$('#slide_3').click(function(){
+		mySwiper.slideTo(3, 1000);//切换到第一个slide，速度为1秒
+	})
+	$('#slide_4').click(function(){
+		mySwiper.slideTo(4, 1000);//切换到第一个slide，速度为1秒
+	})
+	$('#slide_5').click(function(){
+		mySwiper.slideTo(5, 1000);//切换到第一个slide，速度为1秒
+	})
+	$('#slide_6').click(function(){
+		mySwiper.slideTo(6, 1000);//切换到第一个slide，速度为1秒
 	})
   </script>
   </body>
