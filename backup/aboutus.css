@@ -11,36 +11,6 @@ html, body {
       height: 100%;
 	  
     }
-	#slide2{
-		color:#384660;
-	}
-	#slide3{
-		color:#384660;
-	}
-	#slide4{
-		color:#384660;
-	}
-	#slide5{
-		color:#384660;
-	}
-	#slide6{
-		color:#384660;
-	}
-	#slide2:hover{
-		opacity:0.7;
-	}
-	#slide3:hover{
-		opacity:0.7;
-	}
-	#slide4:hover{
-		opacity:0.7;
-	}
-	#slide5:hover{
-		opacity:0.7;
-	}
-	#slide6:hover{
-		opacity:0.7;
-	}
 	#bg0{
 		/*background-image: url("./main_page/_preview.jpg"); */
 		/*background-color:#ffffff;*/
