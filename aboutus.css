@@ -367,6 +367,7 @@ html, body {
     font-size:16px;
     border-width:1px;
     border-radius:12px;
+    background-color:rgba(0,0,0,0);
     border-color:#384660;
     color:#384660;
     font-weight:bold;
